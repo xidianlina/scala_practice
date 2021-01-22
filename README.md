@@ -103,8 +103,12 @@ Scala与Java的最大区别是:Scala语句末尾的分号;是可选的。
    // 隐藏成员
    import java.util.{HashMap => _, _} // 引入了util包的所有成员，但是HashMap被隐藏了   
    
+# Scala数据类型
+  Scala与Java有着相同的数据类型，下表列出了Scala支持的数据类型：
+  ![data_type](http://github.com/xidianlina/scala_practice/raw/master/picture/data_type.png)
+  上表中列出的数据类型都是对象，也就是说scala没有java中的原生类型。在scala是可以对数字等基础类型调用方法的。
    
-   
+
 
 ### Usage
 > https://www.cnblogs.com/kevinlogs/p/9175602.html  
